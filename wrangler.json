@@ -1,0 +1,30 @@
+{
+  "name": "summer-sun-6ce7",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "fancy-base-8b41-d1",
+      "database_id": "d56f9911-9c29-4af6-9275-005d3f2bc615"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "summer-sun-6ce7-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
